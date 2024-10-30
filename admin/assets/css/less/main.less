@@ -1,0 +1,53 @@
+// out: ../style.css, sourcemap: false, compress: true
+
+@import url('alert.less');
+@import url('button.less');
+@import url('font.less');
+@import url('form.less');
+@import url('reset.less');
+@import url('tabs.less');
+
+#toplevel_page_ml-settings {
+	.dashicons-before {
+		&:before {
+			color:#db6929 !important;
+		}
+	}
+}
+#WP-ml-fields {
+	tr {
+		width:100%;
+		background-color:#fff;
+	}
+	.drag {
+		cursor:move;
+	}
+	.sortable-placeholder {
+		background:#f8f8f8;
+		border:1px dotted #cccc;
+		margin:2px;
+	}
+}
+
+.tern-wrap {
+	margin:60px 40px 60px 20px;
+
+	#col-left {
+		width:40%;
+	}
+	#col-right {
+		width:57%;
+	}
+
+	.tern-well {
+		background-color:#fff;
+		border:1px solid rgba(0,0,0,0.2);
+		margin:30px 0;
+		padding:40px;
+
+		ul {
+			list-style:disc;
+			padding-inline-start:40px;
+		}
+	}
+}

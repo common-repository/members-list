@@ -1,0 +1,593 @@
+# Copyright (C) 2018 Matthew Praetzel
+# This file is distributed under the same license as the Members List PRO plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Members List PRO 4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/members-list-pro\n"
+"POT-Creation-Date: 2018-12-18T05:54:35+00:00\n"
+"PO-Revision-Date: 2018-12-18 16:25-0500\n"
+"Last-Translator: Matthew Praetzel <matthew@ternstyle.us>\n"
+"Language-Team: \n"
+"Language: pro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Domain: members-list-pro\n"
+
+#. Plugin Name of the plugin
+#: common/menus.php:34 common/menus.php:48
+msgid "Members List PRO"
+msgstr "Members List PRO"
+
+#. Plugin URI of the plugin
+msgid "http://www.ternstyle.us/members-list-plugin-for-wordpress/"
+msgstr "http://www.ternstyle.us/members-list-plugin-for-wordpress/"
+
+#. Description of the plugin
+msgid ""
+"List your members with search, radius search, sort, and paging capabilities."
+msgstr ""
+"Listen Sie die Benutzer Ihrer Website auf, sortierbar, mit seitenweiser "
+"Anzeige, Suche in Feldern und Umgebungssuche."
+
+#. Author of the plugin
+msgid "Matthew Praetzel"
+msgstr "Matthew Praetzel"
+
+#. Author URI of the plugin
+msgid "http://www.ternstyle.us/"
+msgstr "http://www.ternstyle.us/"
+
+#: class/members.php:113 conf.php:63
+msgid "First Name"
+msgstr "Vorname"
+
+#: class/members.php:117 class/members.php:751 conf.php:62
+msgid "Last Name"
+msgstr "Nachname"
+
+#: class/members.php:121 conf.php:58
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+#: class/members.php:554 view/users.php:28
+msgid "All"
+msgstr "Alle"
+
+#: class/members.php:563 class/members.php:712 class/members.php:740
+msgid "Search"
+msgstr "Suchen"
+
+#: class/members.php:566 class/members.php:719
+msgid "Radius"
+msgstr "Umgebung"
+
+#: class/members.php:576
+msgid "Filter"
+msgstr "Filtern"
+
+#: class/members.php:721
+msgid "All Fields"
+msgstr "Alle Felder"
+
+#: class/members.php:726
+msgid "Type Search..."
+msgstr "Suchbegriff eingeben..."
+
+#: class/members.php:751
+msgid "Search Alphabetically"
+msgstr "Alphabetisch suchen"
+
+#: class/members.php:832
+msgid "Now viewing"
+msgstr "Suchresultate"
+
+#: class/members.php:832
+msgid "through"
+msgstr "bis"
+
+#: class/members.php:832
+msgid "of"
+msgstr "von"
+
+#: common/internal.php:116 common/internal.php:169
+msgid "Great Success!"
+msgstr "Erfolgreich!"
+
+#: common/internal.php:189 common/internal.php:219
+msgid "Activate!"
+msgstr "Aktivieren!"
+
+#: common/internal.php:197 common/internal.php:222
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: common/internal.php:206
+msgid "Your email address"
+msgstr "Ihre E-Mail-Adresse"
+
+#: common/internal.php:212
+msgid "Activation Key"
+msgstr "Aktivierungsschlüssel"
+
+#: common/menus.php:35
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: common/menus.php:36
+msgid "Create/Edit Lists"
+msgstr "Listen erstellen/bearbeiten"
+
+#: common/menus.php:37
+msgid "Edit List Fields"
+msgstr "Listen-Felder bearbeiten"
+
+#: common/menus.php:38
+msgid "Edit List Users"
+msgstr "Listen-Mitglieder bearbeiten"
+
+#: common/menus.php:45
+msgid "Activated"
+msgstr "Aktiviert"
+
+#: conf.php:57
+msgid "User Name"
+msgstr "Benutzername"
+
+#: conf.php:59
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#: conf.php:60
+msgid "URL"
+msgstr "URL"
+
+#: conf.php:61
+msgid "Registration Date"
+msgstr "Registrierdatum"
+
+#: conf.php:64
+msgid "Description"
+msgstr "Beschreibung"
+
+#: conf.php:66
+msgid "Standard Fields"
+msgstr "Standardfelder"
+
+#: conf.php:67
+msgid "Standard Meta Fields"
+msgstr "Standard-Meta-Felder"
+
+#: conf.php:68
+msgid "Available Meta Fields"
+msgstr "Verfügbare Meta-Felder"
+
+#: conf.php:168
+msgid "You need to input your key before you can use the Members List Plugin."
+msgstr ""
+"Bevor Sie das Members List Plug-In benutzen können, müssen Sie Ihren "
+"Lizenzschlüssel eingeben."
+
+#: conf.php:168
+msgid "Click Here!"
+msgstr "Hier klicken!"
+
+#: core/users.php:78
+msgid "You have successfully removed users."
+msgstr "Das/die Listen-Mitglied/er wurden entfernt."
+
+#: core/users.php:88
+msgid "You have successfully added a user or users."
+msgstr "Das/die Listen-Mitglied/er wurde/n hinzugefügt."
+
+#: view/fields.php:3
+msgid "Fields for List:"
+msgstr "Felder für Liste:"
+
+#: view/fields.php:11 view/shortcode-form.php:9 view/users.php:11
+#: view/users.php:22
+msgid "Select List"
+msgstr "Liste auswählen"
+
+#: view/fields.php:23 view/lists.php:12 view/lists.php:70 view/users.php:46
+#: view/users.php:98
+msgid "Bulk Actions"
+msgstr "Sammelaktionen"
+
+#: view/fields.php:24 view/lists.php:13 view/lists.php:52 view/lists.php:71
+msgid "Delete"
+msgstr "Löschen"
+
+#: view/fields.php:26 view/fields.php:82 view/lists.php:15 view/lists.php:73
+#: view/users.php:50 view/users.php:102
+msgid "Apply"
+msgstr "Anwenden"
+
+#: view/fields.php:34 view/fields.php:45 view/users.php:60 view/users.php:70
+msgid "Select All"
+msgstr "Alles auswählen"
+
+#: view/fields.php:36 view/fields.php:47 view/fields.php:97 view/fields.php:145
+#: view/list-fields-edit.php:2 view/list-fields.php:2 view/lists.php:23
+#: view/lists.php:31 view/users.php:62 view/users.php:72
+msgid "Name"
+msgstr "Name"
+
+#: view/fields.php:37 view/fields.php:48
+msgid "Field"
+msgstr "Feld"
+
+#: view/fields.php:38 view/fields.php:49
+msgid "Truncate"
+msgstr "Gekürzt"
+
+#: view/fields.php:39 view/fields.php:50 view/lists.php:25 view/lists.php:33
+#: view/users.php:65 view/users.php:75
+msgid "Actions"
+msgstr "Aktionen"
+
+#: view/fields.php:56
+msgid "You currently have no fields. Add one!"
+msgstr "Sie haben noch keine Felder; bitte fügen Sie eines hinzu!"
+
+#: view/fields.php:95
+msgid "Add a New Field"
+msgstr "Neues Feld hinzufügen"
+
+#: view/fields.php:109 view/fields.php:157 view/list-fields-edit.php:40
+#: view/list-fields-edit.php:77 view/list-fields-edit.php:102
+#: view/list-fields.php:58 view/list-fields.php:95 view/list-fields.php:120
+msgid "Database Field"
+msgstr "Datenbankfeld"
+
+#: view/fields.php:113 view/fields.php:162
+msgid "Truncate this field"
+msgstr "Kürzen Sie diesen Feldinhalt"
+
+#: view/fields.php:120
+msgid "Add Field"
+msgstr "Feld hinzufügen"
+
+#: view/fields.php:134
+msgid ""
+"Please note that some users may not have the fields specified filled out. In "
+"these cases they will not be displayed below."
+msgstr ""
+"Die angegebenen Felder sind unter Umständen bei einigen Mitgliedern nicht "
+"ausgefüllt; in diesen Fällen werden sie nachfolgend nicht angezeigt."
+
+#: view/fields.php:136
+msgid "Preview"
+msgstr "Vorschau"
+
+#: view/list-fields-edit.php:6 view/list-fields.php:24
+msgid "Add new users to this list when they register"
+msgstr ""
+"Neue Benutzer automatisch zu dieser Liste hinzufügen, wenn sie sich "
+"registrieren"
+
+#: view/list-fields-edit.php:8 view/list-fields-edit.php:27
+#: view/list-fields-edit.php:50 view/list-fields-edit.php:57
+#: view/list-fields-edit.php:64 view/list-fields-edit.php:89
+#: view/list-fields-edit.php:112 view/list-fields-edit.php:123
+#: view/list-fields-edit.php:130 view/list-fields.php:8 view/list-fields.php:26
+#: view/list-fields.php:45 view/list-fields.php:68 view/list-fields.php:75
+#: view/list-fields.php:82 view/list-fields.php:107 view/list-fields.php:130
+#: view/list-fields.php:141 view/list-fields.php:148 view/settings.php:37
+#: view/settings.php:46 view/settings.php:93 view/settings.php:108
+#: view/settings.php:147
+msgid "yes"
+msgstr "Ja"
+
+#: view/list-fields-edit.php:10 view/list-fields-edit.php:29
+#: view/list-fields-edit.php:52 view/list-fields-edit.php:59
+#: view/list-fields-edit.php:66 view/list-fields-edit.php:91
+#: view/list-fields-edit.php:114 view/list-fields-edit.php:125
+#: view/list-fields-edit.php:132 view/list-fields.php:28
+#: view/list-fields.php:47 view/list-fields.php:70 view/list-fields.php:77
+#: view/list-fields.php:84 view/list-fields.php:109 view/list-fields.php:132
+#: view/list-fields.php:143 view/list-fields.php:150 view/settings.php:38
+#: view/settings.php:47 view/settings.php:94 view/settings.php:109
+#: view/settings.php:148
+msgid "no"
+msgstr "Nein"
+
+#: view/list-fields-edit.php:13 view/list-fields.php:31
+msgid "How many users to display per page"
+msgstr "Anzahl Mitglieder pro Seite"
+
+#: view/list-fields-edit.php:17 view/list-fields.php:35
+msgid "List view"
+msgstr "Listenansicht"
+
+#: view/list-fields-edit.php:19 view/list-fields.php:37
+msgid "Default"
+msgstr "Vorgabe"
+
+#: view/list-fields-edit.php:20 view/list-fields.php:38
+msgid "Table"
+msgstr "Tabelle"
+
+#: view/list-fields-edit.php:21 view/list-fields.php:39
+msgid "Tile"
+msgstr "Fliese"
+
+#: view/list-fields-edit.php:25 view/list-fields.php:43
+msgid "Allow users to search this list"
+msgstr "Benutzer dürfen diese Liste durchsuchen"
+
+#: view/list-fields-edit.php:32 view/list-fields.php:50
+msgid "Select fields to search by"
+msgstr "Durchsuchbare Felder auswählen"
+
+#: view/list-fields-edit.php:48 view/list-fields.php:66
+msgid "Allow users to search by radius"
+msgstr "Umgebungssuche erlauben"
+
+#: view/list-fields-edit.php:55 view/list-fields.php:73
+msgid "Show map"
+msgstr "Karte anzeigen"
+
+#: view/list-fields-edit.php:62 view/list-fields.php:80
+msgid "Allow users to search by alpha"
+msgstr "Alphabetische Suche erlauben"
+
+#: view/list-fields-edit.php:69 view/list-fields.php:87
+msgid "Sort the list initially by"
+msgstr "Ursprüngliche Sortierung der Liste"
+
+#: view/list-fields-edit.php:81 view/list-fields.php:99
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: view/list-fields-edit.php:82 view/list-fields.php:100
+msgid "Descending"
+msgstr "Absteigend"
+
+#: view/list-fields-edit.php:87 view/list-fields.php:105
+msgid "Allow users to sort"
+msgstr "Sortieren erlauben"
+
+#: view/list-fields-edit.php:94 view/list-fields.php:112
+msgid "Select fields to sort by"
+msgstr "Sortierfelder auswählen"
+
+#: view/list-fields-edit.php:110 view/list-fields.php:128
+msgid "Display profile picture (gravatars)"
+msgstr "Profilbild (Gravatar) anzeigen"
+
+#: view/list-fields-edit.php:117 view/list-fields.php:135
+msgid "Profile picture width"
+msgstr "Profilbild-Breite"
+
+#: view/list-fields-edit.php:121 view/list-fields.php:139
+msgid "Link to author profile pages"
+msgstr "Mit der Benutzer-Profilseite verlinken"
+
+#: view/list-fields-edit.php:128 view/list-fields.php:146
+msgid "Display field labels"
+msgstr "Feldbeschriftungen anzeigen"
+
+#: view/list-fields.php:6
+msgid "Add all users to this list"
+msgstr "Alle Benutzer zu dieser Liste hinzufügen"
+
+#: view/list-fields.php:11
+msgid "Add all users of the following role(s)"
+msgstr "Alle Benutzer mit der/den folgenden Rolle/n hinzufügen"
+
+#: view/lists.php:3
+msgid "Members Lists"
+msgstr "Mitglieder-Listen"
+
+#: view/lists.php:24 view/lists.php:32
+msgid "Users"
+msgstr "Benutzer"
+
+#: view/lists.php:52
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: view/lists.php:52
+msgid "Edit Fields"
+msgstr "Felder bearbeiten"
+
+#: view/lists.php:84
+msgid "Add a New List"
+msgstr "Eine neue Liste hinzufügen"
+
+#: view/lists.php:88
+msgid "Add List"
+msgstr "Liste hinzufügen"
+
+#: view/lists.php:104
+msgid "Edit List"
+msgstr "Liste bearbeiten"
+
+#: view/settings.php:3
+msgid "Members List Settings"
+msgstr "Mitgliederlisten-Einstellungen"
+
+#: view/settings.php:8
+msgid "Display Settings"
+msgstr "Anzeige-Einstellungen"
+
+#: view/settings.php:13
+msgid "Use a word other than \"Member\" on the front-end (Singular)"
+msgstr "Ein anderes Wort für \"Member\" im Frontend wählen (Singular)"
+
+#: view/settings.php:16
+msgid "i.e. \"Client\" or \"User\""
+msgstr "z.B. \"Kunde\" oder \"Benutzer\""
+
+#: view/settings.php:21
+msgid "Use a word other than \"Members\" on the front-end (Plural)"
+msgstr "Ein anderes Wort für \"Members\" im Frontend wählen (Plural)"
+
+#: view/settings.php:24
+msgid "i.e. \"Clients\" or \"Users\""
+msgstr "z.B. \"Kunden\" oder \"Benutzer\""
+
+#: view/settings.php:28
+msgid "Color Picker"
+msgstr "Farbwähler"
+
+#: view/settings.php:35
+msgid "Hide email addresses from anyone who is not logged in"
+msgstr "E-Mail-Adressen vor nicht eingeloggten Benutzern verstecken"
+
+#: view/settings.php:44
+msgid "Use this plugin's author page"
+msgstr "Die Benutzer-Profilseite des Plug-Ins benutzen"
+
+#: view/settings.php:49
+msgid ""
+"If set to yes, this plugin will take over the profile pages for all of your "
+"site's users."
+msgstr ""
+"Wenn Sie Ja wählen, übernimmt das Plug-In die Profilseiten sämtlicher "
+"Benutzer der Website."
+
+#: view/settings.php:53
+msgid "Which fields would you like to display on your author pages"
+msgstr "Welche Felder sollen auf der Autoren-Seite angezeigt werden?"
+
+#: view/settings.php:91
+msgid "Display author's posts on author page"
+msgstr "Die Posts des Benutzers auf der Profilseite anzeigen"
+
+#: view/settings.php:96
+msgid ""
+"If set to yes, the user's most recent posts will be displayed on his/her "
+"author page."
+msgstr ""
+"Wenn Sie Ja wählen, werden die neusten Posts auf der Benutzer-Profilseite "
+"angezeigt."
+
+#: view/settings.php:102
+msgid "User Settings"
+msgstr "Benutzereinstellungen"
+
+#: view/settings.php:106
+msgid "Allow users to edit which members lists they're in"
+msgstr "Erlauben Sie den Benutzern, ihre Listenzugehörigkeit zu bearbeiten"
+
+#: view/settings.php:111
+msgid ""
+"If set to yes, users will be able to add or remove themselves from lists."
+msgstr ""
+"Wenn Sie Ja wählen, können Benutzer sich selbst zu Listen hinzufügen bzw. "
+"von Listen entfernen."
+
+#: view/settings.php:117
+msgid "Google Settings"
+msgstr "Google-Einstellungen"
+
+#: view/settings.php:121
+msgid "Google API Key (Server)"
+msgstr "Google API Key (Server)"
+
+#: view/settings.php:125
+msgid ""
+"Use this if you want to use the geolocation and radius search functionality."
+msgstr ""
+"Mit diesen Einstellungen ermöglichen Sie die Funktionalitäten für "
+"Geolokalisierung und Umgebungssuche."
+
+#: view/settings.php:126 view/settings.php:135
+msgid "Instructions"
+msgstr "Anleitung"
+
+#: view/settings.php:130
+msgid "Google API Key (Browser)"
+msgstr "Google API Key (Browser)"
+
+#: view/settings.php:134
+msgid "Use this if you want to use the Google Maps functionality."
+msgstr ""
+"Mit diesen Einstellungen ermöglichen Sie die Funktionalität von Google Maps."
+
+#: view/settings.php:141
+msgid "Styling"
+msgstr "Styling"
+
+#: view/settings.php:145
+msgid "Use this plugin's CSS"
+msgstr "Das CSS des Plug-Ins benutzen"
+
+#: view/settings.php:150
+#, fuzzy
+#| msgid ""
+#| "If set to yes, this plugin will take over the profile pages for all of "
+#| "your site's users."
+msgid ""
+"If set to yes, this plugin will control the look of the list and author "
+"pages with CSS."
+msgstr ""
+"Wenn Sie Ja wählen, kontrolliert das CSS des Plug-Ins das Aussehen der Liste "
+"und der Profil-Seite."
+
+#: view/settings.php:154
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: view/settings.php:163
+msgid "Save Changes"
+msgstr "Änderungen sichern"
+
+#: view/users.php:3
+msgid "Users for List"
+msgstr "Benutzer in Liste"
+
+#: view/users.php:15
+msgid "Please select a list to edit"
+msgstr "Liste auswählen"
+
+#: view/users.php:29
+msgid "Users not in List"
+msgstr "Nicht in dieser Liste enthaltene Benutzer"
+
+#: view/users.php:35
+msgid "Search Users"
+msgstr "Benutzer suchen"
+
+#: view/users.php:47 view/users.php:99
+msgid "Remove from List"
+msgstr "Von der Liste entfernen"
+
+#: view/users.php:48 view/users.php:100
+msgid "Add to List"
+msgstr "Zur Liste hinzufügen"
+
+#: view/users.php:53
+msgid "items"
+msgstr "Elemente"
+
+#: view/users.php:63 view/users.php:73
+msgid "Username"
+msgstr "Benutzername"
+
+#: view/users.php:64 view/users.php:74
+msgid "Email"
+msgstr "E-Mail-Adresse"
+
+#: view/users.php:81
+msgid "You currently have no users. Add one!"
+msgstr "Sie haben noch keine Listenmitglieder; bitte fügen Sie eines hinzu!"
+
+#: js/block/list.js:33 js/block/list.js:51
+msgid "Members List"
+msgstr "Mitglieder-Listen"
+
+#: js/block/list.js:34
+msgid "Members List shortcode."
+msgstr "Mitglieder-Listen kurzcode"
+
+#: js/block/list.js:44
+msgid "members"
+msgstr "Mitglieder"
+
+#: js/block/list.js:45
+msgid "list"
+msgstr "listen"

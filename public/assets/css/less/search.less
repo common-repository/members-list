@@ -1,0 +1,74 @@
+
+.WP-ml-members {
+	.WP-ml-filter-search-form {
+		background-color:#ededed;
+		border:1px solid #e5e5e5;
+		border-width:0 1px 1px;
+		padding:22px 24px;
+
+		form {
+			label {
+				display:none;
+			}
+			input, select, button, .pseudo-select {
+				vertical-align:middle;
+			}
+			select[name=by] {
+				display:block;
+			}
+			input[name=search] {
+				display:inline-block;
+				width:156px;
+				height:40px;
+				background:#F3F3F3;
+				border:1px solid #E5E5E5;
+				border-radius:0;
+				-webkit-border-radius:0;
+				-moz-border-radius:0;
+				margin:0 0 0 10px;
+				font-size:11px;
+				color:#868686;
+				text-indent:15px;
+				box-shadow:none;
+				-webkit-box-shadow:none;
+				-moz-box-shadow:none;
+			}
+			select[name=radius], .pseudo-radius {
+				display:none !important;
+				margin:0 0 0 10px;
+				&.WP-ml-active {
+					display:inline-block !important;
+				}
+			}
+			button {
+				height:38px;
+				margin:0 0 0 10px;
+				padding:0 26px;
+				line-height:38px;
+				span {
+					display:none;
+				}
+				&:after {
+					content:'\2192';
+				}
+			}
+		}
+
+		@media (max-width: 600px) {
+			text-align:center;
+			form {
+				select, input, button {
+					display:block;
+					margin:0 auto 10px !important;
+				}
+				input[name=search] {
+					width:80%;
+				}
+				.pseudo-by, .pseudo-radius {
+					margin-bottom:10px;
+					text-align:left;
+				}
+			}
+		}
+	}
+}

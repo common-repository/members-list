@@ -1,0 +1,49 @@
+.WP-ml-members {
+	.WP-ml-pagination {
+		width:100%;
+		text-align:center;
+
+		ul {
+			display:block;
+			list-style:none;
+
+			li {
+				display:inline-block;
+
+				a {
+					display:block;
+					margin:0 10px;
+					line-height:20px;
+					font-size:11px;
+					font-weight:600;
+					color:#414141;
+					text-decoration:none;
+				}
+
+				.WP-ml-pagination-item {
+					width:20px;
+					height:20px;
+					border-radius:50%;
+					-webkit-border-radius:50%;
+					-moz-border-radius:50%;
+				}
+
+				&.WP-ml-active {
+					.WP-ml-pagination-item {
+						background-color:#006c8c;
+						color:#fff;
+					}
+				}
+			}
+
+			.WP-ml-pagination-first {
+				float:left;
+				margin:0;
+			}
+			.WP-ml-pagination-last {
+				float:right;
+				margin:0;
+			}
+		}
+	}
+}

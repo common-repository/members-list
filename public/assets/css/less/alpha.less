@@ -1,0 +1,65 @@
+.WP-ml-members {
+	.WP-ml-filter-alpha-form {
+		background-color:#ededed;
+		border:1px solid #e5e5e5;
+		border-width:0 1px 1px;
+		padding:22px 24px;
+
+		label {
+			display:block;
+			margin:0 0 20px;
+			font-size:14px;
+			font-weight:600;
+			color:#3d3d3d;
+
+			span {
+				font-weight:normal;
+				color:#878787;
+
+			}
+		}
+
+		ul {
+			display:block;
+			height:14px;
+			margin-left:-1%;
+			list-style:none;
+
+			li {
+				display:block;
+				float:left;
+				width:3.8%;
+				list-style:none;
+
+				a {
+					display:block;
+					width:100%;
+					line-height:14px;
+					text-align:center;
+					font-size:14px;
+					color:#006c8c;
+					text-decoration:none;
+				}
+			}
+		}
+
+		select, .pseudo-select {
+			display:none;
+		}
+
+		@media (max-width: 600px) {
+			text-align:center;
+			label {
+				span {
+					display:none;
+				}
+			}
+			ul {
+				display:none;
+			}
+			select {
+				display:inline-block !important;
+			}
+		}
+	}
+}

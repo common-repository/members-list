@@ -1,0 +1,90 @@
+.tern-tabs {
+
+	width:100%;
+	border:0 !important;
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	padding:0 !important;
+
+	&.ui-tabs-vertical {
+		width:100%;
+
+		.ui-tabs-nav {
+			float:left;
+			width:10%;
+			background:none;
+			background-color:#f8f8f8;
+			border:0;
+			padding:0;
+
+			li {
+				clear:left;
+				width:100%;
+				border:0;
+				border-bottom:1px solid rgba(255,255,255,1);
+				border-radius:0;
+				-moz-border-radius:0;
+				-webkit-border-radius:0;
+				margin:0;
+				a {
+					display:block;
+					width:100%;
+					outline:none;
+					box-shadow:none;
+					font-weight:bold;
+					color:rgba(0,0,0,0.5);
+					text-shadow:1px 1px rgba(255,255,255,0.4);
+
+					&:active, &:focus {
+						outline:none;
+					}
+				}
+
+				&.ui-tabs-active {
+					background-color:#db6929 !important;
+					padding-bottom:0;
+					a {
+						color:#fff;
+						text-shadow:-1px -1px rgba(0,0,0,0.4);
+					}
+				}
+			}
+		}
+		.ui-tabs-panel {
+			float:right;
+			width:88%;
+			padding:30px;
+			box-sizing:border-box;
+
+			.tern-color-widget {
+				position:relative;
+				height:36px;
+
+				.tern-color-selector {
+					position:absolute;
+					top:0;
+					left:0;
+					width:36px;
+					height:36px;
+					background:url('https://1-repository.s3.amazonaws.com/colorpicker/images/select2.png') center;
+
+					> div {
+						position:absolute;
+						top:4px;
+						left:4px;
+						width:28px;
+						height:28px;
+						background:url('https://1-repository.s3.amazonaws.com/colorpicker/images/select2.png') center;
+					}
+				}
+			}
+
+			.tern-color {
+				float:left;
+				width:40px;
+			}
+
+		}
+	}
+}

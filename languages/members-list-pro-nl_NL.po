@@ -1,0 +1,660 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Members List PRO\n"
+"POT-Creation-Date: 2020-11-13 12:00-0500\n"
+"PO-Revision-Date: 2020-11-13 12:05-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: class/members.php:113 conf.php:63
+msgid "First Name"
+msgstr "Voornaam"
+
+#: class/members.php:117 class/members.php:751 conf.php:62
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: class/members.php:121 conf.php:58
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: class/members.php:554 view/users.php:16
+msgid "All"
+msgstr "Alle"
+
+#: class/members.php:563 class/members.php:712 class/members.php:740
+msgid "Search"
+msgstr "Zoeken"
+
+#: class/members.php:566 class/members.php:719
+msgid "Radius"
+msgstr "Radius"
+
+#: class/members.php:576
+msgid "Filter"
+msgstr "Filter"
+
+#: class/members.php:721
+msgid "All Fields"
+msgstr "Alle velden"
+
+#: class/members.php:726
+msgid "Type Search..."
+msgstr "Zoek naar…"
+
+#: class/members.php:751
+#, fuzzy
+msgid "Search Alphabetically"
+msgstr "Zoek alfabetisch"
+
+#: class/members.php:751
+#, fuzzy
+msgid "whose last names begin with the letter"
+msgstr "van wie de achternaam begint met een"
+
+#: class/members.php:832
+msgid "Now viewing"
+msgstr "Huidige weergave"
+
+#: class/members.php:832
+msgid "through"
+msgstr "tot"
+
+#: class/members.php:832
+msgid "of"
+msgstr "van"
+
+#: class/wordpress.php:99
+#, fuzzy
+msgid "(more...)"
+msgstr "(meer...)"
+
+#: common/internal.php:118 common/internal.php:172
+msgid "Great Success!"
+msgstr "Geslaagd!"
+
+#: common/internal.php:192 common/internal.php:223
+#, fuzzy
+msgid "Activate!"
+msgstr "Activeren!"
+
+#: common/internal.php:200 common/internal.php:226
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: common/internal.php:210
+msgid "Your email address"
+msgstr "Je e-mailadres"
+
+#: common/internal.php:216
+msgid "Activation Key"
+msgstr "Activatiesleutel"
+
+#. Plugin Name of the plugin/theme
+#: common/menus.php:34 common/menus.php:48
+msgid "Members List PRO"
+msgstr "Members List PRO"
+
+#: common/menus.php:35
+msgid "Settings"
+msgstr "Instellingen"
+
+#: common/menus.php:36
+#, fuzzy
+msgid "Create/Edit Lists"
+msgstr "Lijsten maken/bewerken"
+
+#: common/menus.php:37
+#, fuzzy
+msgid "Edit List Fields"
+msgstr "Lijstvelden bewerken"
+
+#: common/menus.php:38
+#, fuzzy
+msgid "Edit List Users"
+msgstr "Lijstgebruikers bewerken"
+
+#: common/menus.php:45
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: conf.php:57
+msgid "User Name"
+msgstr "Gebruikersnaam"
+
+#: conf.php:59
+msgid "Display Name"
+msgstr "Weergavenaam"
+
+#: conf.php:60
+msgid "URL"
+msgstr "URL"
+
+#: conf.php:61
+msgid "Registration Date"
+msgstr "Registratiedatum"
+
+#: conf.php:64
+msgid "Description"
+msgstr "Omschrijving"
+
+#: conf.php:66
+msgid "Standard Fields"
+msgstr "Standaard velden"
+
+#: conf.php:67
+#, fuzzy
+msgid "Standard Meta Fields"
+msgstr "Standaard Meta-velden"
+
+#: conf.php:68
+#, fuzzy
+msgid "Available Meta Fields"
+msgstr "Beschikbare Metavelden"
+
+#: conf.php:168
+msgid "You need to input your key before you can use the Members List Plugin."
+msgstr ""
+"Je moet je sleutel invoeren voordat je de Members List Plugin kunt gebruiken."
+
+#: conf.php:168
+#, fuzzy
+msgid "Click Here!"
+msgstr "Klik hier!"
+
+#: core/users.php:78
+#, fuzzy
+msgid "You have successfully removed users."
+msgstr "U hebt gebruikers verwijderd."
+
+#: core/users.php:88
+#, fuzzy
+msgid "You have successfully added a user or users."
+msgstr "U hebt een gebruiker of gebruikers toegevoegd."
+
+#: front/author.php:82
+#, fuzzy
+msgid "Now viewing "
+msgstr "Nu bekijken "
+
+#: js/block/list.js:33 js/block/list.js:51
+msgid "Members List"
+msgstr "Ledenlijst"
+
+#: js/block/list.js:34
+#, fuzzy
+msgid "Members List shortcode."
+msgstr "Leden Lijst shortcode."
+
+#: js/block/list.js:44
+msgid "members"
+msgstr "leden"
+
+#: js/block/list.js:45
+msgid "list"
+msgstr "lijst"
+
+#: view/fields.php:3
+#, fuzzy
+msgid "Fields for List:"
+msgstr "Velden voor lijst:"
+
+#: view/fields.php:11 view/shortcode-form.php:9 view/users.php:11
+msgid "Select List"
+msgstr "Selecteer Lijst"
+
+#: view/fields.php:23 view/lists.php:12 view/lists.php:70 view/users.php:34
+#: view/users.php:86
+msgid "Bulk Actions"
+msgstr "Bulk acties"
+
+#: view/fields.php:24 view/lists.php:13 view/lists.php:52 view/lists.php:71
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: view/fields.php:26 view/fields.php:82 view/lists.php:15 view/lists.php:73
+#: view/users.php:38 view/users.php:90
+msgid "Apply"
+msgstr "Toepassen"
+
+#: view/fields.php:34 view/fields.php:45 view/users.php:48 view/users.php:58
+msgid "Select All"
+msgstr "Alles selecteren"
+
+#: view/fields.php:36 view/fields.php:47 view/fields.php:97 view/fields.php:145
+#: view/list-fields-edit.php:2 view/list-fields.php:2 view/lists.php:23
+#: view/lists.php:31 view/users.php:50 view/users.php:60
+msgid "Name"
+msgstr "Naam"
+
+#: view/fields.php:37 view/fields.php:48
+msgid "Field"
+msgstr "Veld"
+
+#: view/fields.php:38 view/fields.php:49
+#, fuzzy
+msgid "Truncate"
+msgstr "Afkappen"
+
+#: view/fields.php:39 view/fields.php:50 view/lists.php:25 view/lists.php:33
+#: view/users.php:53 view/users.php:63
+msgid "Actions"
+msgstr "Acties"
+
+#: view/fields.php:56
+#, fuzzy
+msgid "You currently have no fields. Add one!"
+msgstr "U hebt momenteel geen velden. Voeg er een toe!"
+
+#: view/fields.php:95
+msgid "Add a New Field"
+msgstr "Nieuw veld toevoegen"
+
+#: view/fields.php:109 view/fields.php:157 view/list-fields-edit.php:40
+#: view/list-fields-edit.php:77 view/list-fields-edit.php:102
+#: view/list-fields.php:58 view/list-fields.php:95 view/list-fields.php:120
+#, fuzzy
+msgid "Database Field"
+msgstr "Databaseveld"
+
+#: view/fields.php:113 view/fields.php:162
+#, fuzzy
+msgid "Truncate this field"
+msgstr "Dit veld inkorten"
+
+#: view/fields.php:120
+msgid "Add Field"
+msgstr "Veld toevoegen"
+
+#: view/fields.php:134
+#, fuzzy
+msgid ""
+"Please note that some users may not have the fields specified filled out. In "
+"these cases they will not be displayed below."
+msgstr ""
+"Houd er rekening mee dat sommige gebruikers mogelijk niet de velden hebben "
+"ingevuld. In deze gevallen worden ze hieronder niet weergegeven."
+
+#: view/fields.php:136
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: view/list-fields-edit.php:6 view/list-fields.php:24
+#, fuzzy
+msgid "Add new users to this list when they register"
+msgstr "Nieuwe gebruikers aan deze lijst toevoegen wanneer ze zich registreren"
+
+#: view/list-fields-edit.php:8 view/list-fields-edit.php:27
+#: view/list-fields-edit.php:50 view/list-fields-edit.php:57
+#: view/list-fields-edit.php:64 view/list-fields-edit.php:89
+#: view/list-fields-edit.php:112 view/list-fields-edit.php:123
+#: view/list-fields-edit.php:130 view/list-fields.php:8 view/list-fields.php:26
+#: view/list-fields.php:45 view/list-fields.php:68 view/list-fields.php:75
+#: view/list-fields.php:82 view/list-fields.php:107 view/list-fields.php:130
+#: view/list-fields.php:141 view/list-fields.php:148 view/settings.php:37
+#: view/settings.php:46 view/settings.php:93 view/settings.php:108
+#: view/settings.php:147
+msgid "yes"
+msgstr "ja"
+
+#: view/list-fields-edit.php:10 view/list-fields-edit.php:29
+#: view/list-fields-edit.php:52 view/list-fields-edit.php:59
+#: view/list-fields-edit.php:66 view/list-fields-edit.php:91
+#: view/list-fields-edit.php:114 view/list-fields-edit.php:125
+#: view/list-fields-edit.php:132 view/list-fields.php:28
+#: view/list-fields.php:47 view/list-fields.php:70 view/list-fields.php:77
+#: view/list-fields.php:84 view/list-fields.php:109 view/list-fields.php:132
+#: view/list-fields.php:143 view/list-fields.php:150 view/settings.php:38
+#: view/settings.php:47 view/settings.php:94 view/settings.php:109
+#: view/settings.php:148
+msgid "no"
+msgstr "nee"
+
+#: view/list-fields-edit.php:13 view/list-fields.php:31
+#, fuzzy
+msgid "How many users to display per page"
+msgstr "Hoeveel gebruikers per pagina moeten weergeven"
+
+#: view/list-fields-edit.php:17 view/list-fields.php:35
+msgid "List view"
+msgstr "Lijstweergave"
+
+#: view/list-fields-edit.php:19 view/list-fields.php:37
+msgid "Default"
+msgstr "Standaard"
+
+#: view/list-fields-edit.php:20 view/list-fields.php:38
+msgid "Table"
+msgstr "Tabel"
+
+#: view/list-fields-edit.php:21 view/list-fields.php:39
+msgid "Tile"
+msgstr "Tegel"
+
+#: view/list-fields-edit.php:25 view/list-fields.php:43
+#, fuzzy
+msgid "Allow users to search this list"
+msgstr "Gebruikers toestaan om in deze lijst te zoeken"
+
+#: view/list-fields-edit.php:32 view/list-fields.php:50
+#, fuzzy
+msgid "Select fields to search by"
+msgstr "Velden selecteren om op te zoeken"
+
+#: view/list-fields-edit.php:48 view/list-fields.php:66
+#, fuzzy
+msgid "Allow users to search by radius"
+msgstr "Gebruikers toestaan om te zoeken op straal"
+
+#: view/list-fields-edit.php:55 view/list-fields.php:73
+msgid "Show map"
+msgstr "Toon kaart"
+
+#: view/list-fields-edit.php:62 view/list-fields.php:80
+#, fuzzy
+msgid "Allow users to search by alpha"
+msgstr "Gebruikers toestaan om te zoeken op alfa"
+
+#: view/list-fields-edit.php:69 view/list-fields.php:87
+#, fuzzy
+msgid "Sort the list initially by"
+msgstr "Sorteer de lijst in eerste instantie op"
+
+#: view/list-fields-edit.php:81 view/list-fields.php:99
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: view/list-fields-edit.php:82 view/list-fields.php:100
+msgid "Descending"
+msgstr "Aflopend"
+
+#: view/list-fields-edit.php:87 view/list-fields.php:105
+#, fuzzy
+msgid "Allow users to sort"
+msgstr "Gebruikers toestaan om te sorteren"
+
+#: view/list-fields-edit.php:94 view/list-fields.php:112
+#, fuzzy
+msgid "Select fields to sort by"
+msgstr "Velden selecteren om te sorteren op"
+
+#: view/list-fields-edit.php:110 view/list-fields.php:128
+#, fuzzy
+msgid "Display profile picture (gravatars)"
+msgstr "Profielfoto weergeven (gravatars)"
+
+#: view/list-fields-edit.php:117 view/list-fields.php:135
+#, fuzzy
+msgid "Profile picture width"
+msgstr "Profielfotobreedte"
+
+#: view/list-fields-edit.php:121 view/list-fields.php:139
+#, fuzzy
+msgid "Link to author profile pages"
+msgstr "Koppeling naar pagina's voor auteursprofiel"
+
+#: view/list-fields-edit.php:128 view/list-fields.php:146
+#, fuzzy
+msgid "Display field labels"
+msgstr "Veldlabels weergeven"
+
+#: view/list-fields.php:6
+#, fuzzy
+msgid "Add all users to this list"
+msgstr "Alle gebruikers aan deze lijst toevoegen"
+
+#: view/list-fields.php:11
+#, fuzzy
+msgid "Add all users of the following role(s)"
+msgstr "Alle gebruikers van de volgende rol(en) toevoegen"
+
+#: view/lists.php:3
+#, fuzzy
+msgid "Members Lists"
+msgstr "Ledenlijsten"
+
+#: view/lists.php:24 view/lists.php:32
+msgid "Users"
+msgstr "Gebruikers"
+
+#: view/lists.php:52
+msgid "Edit"
+msgstr "Bewerken"
+
+#: view/lists.php:52
+msgid "Edit Fields"
+msgstr "Velden bewerken"
+
+#: view/lists.php:84
+#, fuzzy
+msgid "Add a New List"
+msgstr "Een nieuwe lijst toevoegen"
+
+#: view/lists.php:88
+msgid "Add List"
+msgstr "Voeg lijst toe"
+
+#: view/lists.php:104
+msgid "Edit List"
+msgstr "Bewerk Lijst"
+
+#: view/settings.php:3
+#, fuzzy
+msgid "Members List Settings"
+msgstr "Instellingen voor ledenlijst"
+
+#: view/settings.php:8
+msgid "Display Settings"
+msgstr "Weergave instellingen"
+
+#: view/settings.php:13
+#, fuzzy
+msgid "Use a word other than \"Member\" on the front-end (Singular)"
+msgstr "Gebruik een ander woord dan \"Lid\" op de front-end (Enkelvoud)"
+
+#: view/settings.php:16
+#, fuzzy
+msgid "i.e. \"Client\" or \"User\""
+msgstr "d.w.z. \"Client\" of \"Gebruiker\""
+
+#: view/settings.php:21
+#, fuzzy
+msgid "Use a word other than \"Members\" on the front-end (Plural)"
+msgstr "Gebruik een ander woord dan 'Leden' op de front-end (Meervoud)"
+
+#: view/settings.php:24
+#, fuzzy
+msgid "i.e. \"Clients\" or \"Users\""
+msgstr "d.w.z. \"Clients\" of \"Gebruikers\""
+
+#: view/settings.php:28
+msgid "Color Picker"
+msgstr "Kleurkiezer"
+
+#: view/settings.php:35
+#, fuzzy
+msgid "Hide email addresses from anyone who is not logged in"
+msgstr "E-mailadressen verbergen voor iedereen die niet is ingelogd"
+
+#: view/settings.php:44
+#, fuzzy
+msgid "Use this plugin's author page"
+msgstr "De auteurspagina van deze plugin gebruiken"
+
+#: view/settings.php:49
+#, fuzzy
+msgid ""
+"If set to yes, this plugin will take over the profile pages for all of your "
+"site's users."
+msgstr ""
+"Als deze plugin is ingesteld op ja, neemt deze profielpagina's voor alle "
+"gebruikers van uw site over."
+
+#: view/settings.php:53
+#, fuzzy
+msgid "Which fields would you like to display on your author pages"
+msgstr "Welke velden wilt u weergeven op uw auteurspagina's"
+
+#: view/settings.php:91
+#, fuzzy
+msgid "Display author's posts on author page"
+msgstr "Berichten van auteurs weergeven op de auteurspagina"
+
+#: view/settings.php:96
+#, fuzzy
+msgid ""
+"If set to yes, the user's most recent posts will be displayed on his/her "
+"author page."
+msgstr ""
+"Als de meest recente berichten van de gebruiker zijn ingesteld op ja, worden "
+"ze weergegeven op de auteurpagina van zijn/haar auteur."
+
+#: view/settings.php:102
+msgid "User Settings"
+msgstr "Gebruikersinstellingen"
+
+#: view/settings.php:106
+#, fuzzy
+msgid "Allow users to edit which members lists they're in"
+msgstr ""
+"Gebruikers toestaan om te bewerken in welke ledenlijsten ze zich beleden"
+
+#: view/settings.php:111
+#, fuzzy
+msgid ""
+"If set to yes, users will be able to add or remove themselves from lists."
+msgstr ""
+"Als ingesteld op ja, kunnen gebruikers zichzelf toevoegen of verwijderen uit "
+"lijsten."
+
+#: view/settings.php:117
+msgid "Google Settings"
+msgstr "Instellingen Google"
+
+#: view/settings.php:121
+#, fuzzy
+msgid "Google API Key (Server)"
+msgstr "Google API-sleutel (server)"
+
+#: view/settings.php:125
+#, fuzzy
+msgid ""
+"Use this if you want to use the geolocation and radius search functionality."
+msgstr ""
+"Gebruik dit als u de geolocatie- en radiuszoekfunctionaliteit wilt gebruiken."
+
+#: view/settings.php:126 view/settings.php:135
+msgid "Instructions"
+msgstr "Instructies"
+
+#: view/settings.php:130
+#, fuzzy
+msgid "Google API Key (Browser)"
+msgstr "Google API-sleutel (browser)"
+
+#: view/settings.php:134
+#, fuzzy
+msgid "Use this if you want to use the Google Maps functionality."
+msgstr "Gebruik dit als u de Google Maps-functionaliteit wilt gebruiken."
+
+#: view/settings.php:141
+msgid "Styling"
+msgstr "Opmaak"
+
+#: view/settings.php:145
+#, fuzzy
+msgid "Use this plugin's CSS"
+msgstr "De CSS van deze plug-in gebruiken"
+
+#: view/settings.php:150
+#, fuzzy
+msgid ""
+"If set to yes, this plugin will control the look of the list and author "
+"pages with CSS."
+msgstr ""
+"Als deze plugin is ingesteld op ja, bepaalt deze lijst het uiterlijk van de "
+"lijst en auteurspagina's met CSS."
+
+#: view/settings.php:154
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: view/settings.php:163
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: view/users.php:3
+#, fuzzy
+msgid "Users for List"
+msgstr "Gebruikers voor Lijst"
+
+#: view/users.php:17
+#, fuzzy
+msgid "Users not in List"
+msgstr "Gebruikers die niet in lijst staan"
+
+#: view/users.php:23
+msgid "Search Users"
+msgstr "Zoek gebruikers"
+
+#: view/users.php:35 view/users.php:87
+msgid "Remove from List"
+msgstr "Verwijder van lijst"
+
+#: view/users.php:36 view/users.php:88
+msgid "Add to List"
+msgstr "Toevoegen aan lijst"
+
+#: view/users.php:41
+msgid "items"
+msgstr "items"
+
+#: view/users.php:51 view/users.php:61
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: view/users.php:52 view/users.php:62
+msgid "Email"
+msgstr "E-mail"
+
+#: view/users.php:69
+#, fuzzy
+msgid "You currently have no users. Add one!"
+msgstr "Je hebt momenteel geen gebruikers. Voeg er een toe!"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "http://www.ternstyle.us/members-list-plugin-for-wordpress/"
+msgstr "http://www.ternstyle.us/members-list-plugin-for-wordpress/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"List your members with search, radius search, sort, and paging capabilities."
+msgstr ""
+"Vermeld uw leden met zoek-, straalzoek-, sorteer- en pagingmogelijkheden."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Matthew Praetzel"
+msgstr "Matthew Praetzel"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://www.ternstyle.us/"
+msgstr "http://www.ternstyle.us/"
